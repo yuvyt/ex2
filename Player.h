@@ -6,7 +6,7 @@
 class Player
 {
     public:
-    Player (const char* name, int m_force = 5, int m_maxHP = 100);
+    Player (const char* name, int m_maxHP = 100, int m_force = 5);
     Player (const Player& playerToCopy);
     Player () = default;
     ~Player() = default; // check if ok

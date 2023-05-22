@@ -14,7 +14,7 @@ using std::string;
  *
  * c'tor for player, making a new player according to the input given
  */
-Player::Player(const char *name, int force, int maxHP)
+Player::Player(const char *name, int maxHP, int force)
 {
     const std::string playerName = std::string(name);
     this->m_name = playerName;

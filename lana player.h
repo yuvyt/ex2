@@ -7,6 +7,7 @@ const int FORCE = 5;
 const int MAXHP = 100;
 const int COINS = 0;
 const int LEVEL = 1;
+const int MAX_LEVEL=10;
 class Player
 {
 public:
